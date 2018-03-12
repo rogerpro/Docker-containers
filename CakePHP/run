@@ -1,0 +1,15 @@
+docker run
+	-ti \
+	caketag \
+	--rm \
+	-p 8080:80 -p 3306:3306 \
+	--name cakecont \
+	--mount type=bind,source=/tmp/test,target=/mnt/test
+
+# TO DO:
+#
+# mount $HOME/htdocs htdocs
+# UTC
+# src/composer-install
+# src/apache-config
+# copy apache config files

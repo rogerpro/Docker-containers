@@ -1,1 +1,1 @@
-# Docker-containers
+Docker image with CakePHP LAMP
